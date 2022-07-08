@@ -11,7 +11,7 @@ $(document).ready(function(){
         localStorage.setItem(time, userText);
         console.log(this);
     })
-
+ 
     function realTimeEvents() {
         var currentTime = moment().hour();
         $(".time-blank").each(function () {
